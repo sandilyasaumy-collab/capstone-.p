@@ -418,10 +418,9 @@ else:
 
     # --- PAGE 4: WEEKLY GOALS ---
     elif page == "Weekly Goals":
+      st.title("🎯 Weekly Goals & Productivity Tracker")
 
-     st.title("🎯 Weekly Goals & Productivity Tracker")
-
-     st.write(
+      st.write(
         "Set your goals, track productivity, monitor improvement, "
         "and earn rewards — all in one dashboard."
     )
