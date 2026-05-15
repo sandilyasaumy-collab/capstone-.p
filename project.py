@@ -574,8 +574,6 @@ else:
 
         st.success("🏆 Productivity Master Badge Earned!")
 
-        st.balloons()
-
         st.image(
             "https://cdn-icons-png.flaticon.com/512/2583/2583344.png",
             width=120
