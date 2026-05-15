@@ -495,12 +495,12 @@ else:
 
     st.subheader("✅ Mark Completed Goals")
 
-    t1 = st.checkbox(goal1 if goal1 else "Goal 1", value=saved_checks[0])
-    t2 = st.checkbox(goal2 if goal2 else "Goal 2", value=saved_checks[1])
-    t3 = st.checkbox(goal3 if goal3 else "Goal 3", value=saved_checks[2])
-    t4 = st.checkbox(goal4 if goal4 else "Goal 4", value=saved_checks[3])
-    t5 = st.checkbox(goal5 if goal5 else "Goal 5", value=saved_checks[4])
-    t6 = st.checkbox(goal6 if goal6 else "Goal 6", value=saved_checks[5])
+    t1 = st.checkbox(goal1 if goal1 else "Goal 1", value=saved_checks[0],key="gc1")
+    t2 = st.checkbox(goal2 if goal2 else "Goal 2", value=saved_checks[1],key="gc2")
+    t3 = st.checkbox(goal3 if goal3 else "Goal 3", value=saved_checks[2],key="gc3")
+    t4 = st.checkbox(goal4 if goal4 else "Goal 4", value=saved_checks[3],key="gc4")
+    t5 = st.checkbox(goal5 if goal5 else "Goal 5", value=saved_checks[4],key="gc5")
+    t6 = st.checkbox(goal6 if goal6 else "Goal 6", value=saved_checks[5],key="gc6")
 
     completed = sum([t1, t2, t3, t4, t5, t6])
     total = 6
